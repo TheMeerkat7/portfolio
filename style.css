@@ -1,0 +1,45 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+body{
+    background-color: #eff0e1;
+}
+
+.smoothfade{
+    animation: smoothfade 4s;
+}
+@keyframes smoothfade{
+    from{
+        opacity: 0;
+
+
+    }
+    to{
+        opacity: 1;
+    }
+}
+.card{
+    width: 420px;
+    height: 560px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+.row{
+    flex: 1;
+}
+.iframe{
+    width:100%;
+    height: 100%;
+}
+div a{
+ text-decoration: none;
+ color: blue;
+ font-size: 1.2rem;
+
+}
+div a:hover{
+ opacity: 0.8;
+}
